@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+p{
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left:60px;
+    padding-right:30px;
+    width:210px;
+}
+.wapper{
+    width:1440px;
+    height: 800px;
+    background-color: hsl(30, 38%, 92%);
+    position: relative;   
+}
+.content{
+    width:630px;
+    height:450px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top:20%;
+    left:25%;   
+}
+.products{
+    height: 450px;
+    width: 315px;
+    float: left;
+    display: inline;
+}
+.products img{
+    height: 450px;
+    width: 315px;
+    border-radius: 10px;   
+}
+.products_info{
+    height: 450px;
+    width: 315px;
+    float:left;  
+}
+.products_category{ 
+    width: 130px;      
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.products_category p{
+    padding-left: 30px;
+}
+.products_name{
+    width: 200px;
+    font-family: 'Fraunces';
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right:30px;
+    color: hsl(212, 21%, 14%); 
+    
+}
+.products_description{
+    width: 200px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height:25px;  
+}
+.products_description p{
+    padding-left: 30px;
+}
+.products_prices{ 
+    padding-left: 30px;
+    padding-right: 60px;  
+}
+.prices-1{
+    font-family: 'Fraunces';
+    font-size: 35px;color:rgb(37, 116, 70);
+    font-weight: 900;
+
+}
+.shopping_bag_buttom{
+    position: relative;
+    left:30px;
+    top:20px;
+    height:38px;
+    width:250px;
+    background-color: rgb(37, 116, 70);
+    border-radius: 10px;
+}
+.shopping_bag_buttom svg{
+    position: relative;
+    top:10px;
+    left:70px;
+}
+.shopping_bag_buttom p{
+    color: white;
+    font-weight: 700;
+    position: relative;
+    bottom:10px;
+    left:35px;
+
+}

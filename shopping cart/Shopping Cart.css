@@ -1,0 +1,36 @@
+body{
+    width:1300px;
+    margin: 0 auto;
+}
+.function{
+    margin: 20px 0px;
+}
+.warp{
+    display:flex;
+    flex-wrap: wrap;
+}
+.product{
+    margin: 10px;
+}
+button{
+    margin: 0px 10px;
+    padding: 5px;
+    background:#FF5809;
+    color: #fff;
+}
+.product button{
+    margin: 5px 0px;
+}
+p{
+    font-size: 20px;
+}
+@media screen and (max-width:768px){
+    body{
+        width:650px;
+        margin:0 auto;
+    }
+    .warp{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

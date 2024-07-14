@@ -1,0 +1,113 @@
+h1{
+    color:white;
+    font-family:'Overpass', sans-serif;
+}
+h1{
+    margin:80px 60px 20px 60px;
+}
+
+.text{
+    color:#959eac;
+    font-family:'Overpass', sans-serif;
+    font-weight: 700;
+    margin:0px 60px 20px 60px;
+    line-height: 1.5;
+}
+
+*{
+    margin:0px;
+}
+#attribution{
+    color: white;
+    position: relative;
+    bottom:50px;  
+    text-align: center;
+}
+.background{
+    background-color: hsl(216, 12%, 8%);
+    margin: 0px;
+    height:930px;
+    width:1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_1{
+    background-color: #252D37;
+    height:500px;
+    width:500px;
+    border-radius: 50px;
+}
+.star_box{
+    width:40px ;
+    height:40px;
+    border-radius: 20px; 
+    background-color: #7c8798;
+   position: relative;
+    top:60px;
+    left:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5{ 
+    font-family:'Overpass', sans-serif;
+    font-size: 15px;
+    color:white;
+    background-color: #7c8798;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+}
+
+#btn p{
+    font-family:'Overpass', sans-serif;
+    font-size: 15px;
+    color:white;
+}
+#submit{
+    font-family:'Overpass', sans-serif;
+    font-size: 20px;
+    color: white;
+    height:50px;
+    width:380px;
+    background-color: orange;
+    border-radius: 30px;
+    margin:65px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_2{
+    background-color: #252D37;
+    height:500px;
+    width:500px;
+    border-radius: 50px;
+}
+#img2{
+   margin:60px 170px 50px 170px;
+}
+.event_text{
+    color:orange;
+    font-family: 'Overpass', sans-serif;
+    background-color: #7c8798;
+    height:30px;
+    width:300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+}
+.thank{
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+}

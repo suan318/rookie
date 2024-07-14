@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+}
+section div{
+    margin: 30px;
+}
+.btn{
+    margin: 10px 30px;
+}
+button{
+    width: 50px;
+    font-size: 15px;
+    margin: 0px 5px;
+}

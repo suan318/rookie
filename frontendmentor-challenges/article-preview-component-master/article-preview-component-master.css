@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+.background{
+    width:1900px;
+    height:920px;
+    background-color: #91a4ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 900px;
+    height:380px;
+    background-color: white;
+    border-radius: 20px;
+}
+.drawers{
+    height:380px;
+    width:475px;
+    border-radius: 20px 0px 0px 20px;
+}
+section{
+    background-color: white;
+    width:400px;
+    height:280px;
+    float:right;
+    position: relative;
+    bottom: 384px;
+    right:45px;
+    padding: 50px 30px 50px 50px;
+}
+.michelle{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+h1{
+    line-height: 1.5;
+    font-weight: 700;
+    color: #48556a;
+    font-size: 25px;
+}
+p{
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 500;
+    color: #48556a;
+}
+span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #48556a;
+    text-align: center;
+}
+button{
+    height:40px;
+    width: 40px;
+    border-radius: 20px;
+    border: white;
+    background-color: #ecf2f8;
+    position: relative;
+    left:130px;
+}
+#share{
+    width:250px;
+    background-color: #48556a;  
+    border-radius: 10px;
+    position: relative;
+    left:280px;
+    bottom: 100px;
+    display: none;
+}
+#share img{
+    float:left;
+    position: relative;
+    left:100px;
+    bottom: 43px;
+    padding: 10px 12px;
+
+}
+#share p{
+    color: white;
+    padding: 10px 10px 10px 30px;
+}

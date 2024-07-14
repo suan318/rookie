@@ -1,0 +1,67 @@
+*{
+    margin:0px;
+}
+.attribution{
+    position:relative;
+    top:450px;
+    left:100px;
+}
+.background_1{
+    width:1440px;
+    height:930px;
+    background-image: linear-gradient(to top, #6565e7, #ab92bf);
+    display: flex;
+    align-items: center;
+}
+.background_2{
+    width:900px;
+    height:500px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left:270px
+
+}
+.bg_pattern{
+    position: relative;
+    right:550px; 
+    bottom: 290px;
+    opacity: 0.8;
+}
+.woman_online{
+    float: left;
+    position: relative;
+    right:80px;
+    bottom: 883px;
+}
+.illustration_box{
+    float: left;
+    position: relative;
+    right:565px;
+    bottom: 750px;
+}
+#faq{
+    position: relative;
+    right:140px;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-right:180px ;
+}
+#faq h1{
+    font-size: 30px;
+}
+#faq h2{
+    font-weight: 700;
+    padding-top: 12px;
+}
+#faq p{
+    font-weight: 400;
+    color: #4a4b51;
+    padding-top: 12px;
+}
+#arrow_1,#arrow_2,#arrow_3,#arrow_4,#arrow_5 {
+    position: relative;
+    left:350px;
+    bottom: 20px;
+}
+p{display:none;}

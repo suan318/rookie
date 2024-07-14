@@ -1,0 +1,173 @@
+*{
+    margin:0px;
+}
+.background{
+    width:1440px;
+    height:930px;
+    background-color: white;
+    position: relative; 
+}
+.background-top{
+    position: relative;
+    bottom:0px;
+}
+.background-bottom{
+    position: relative;
+    left:355px;
+    bottom: 110px;
+}
+.content{
+    height:700px;
+    width:1100px;
+    float:left;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);    
+}
+.box-1{
+    height:250px;
+    margin-top: 20px;
+}
+.box-1 div h1{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    width:350px;
+    color:#502050;
+}
+.text{
+    font-family: 'League Spartan', sans-serif;
+    color:#502050;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 30px;
+    width:350px;
+}
+.star-ratings-1{
+    height:50px;
+    width:450px;
+    float: right;
+    position: relative;
+    right:120px;
+    bottom:220px;
+    background-color: #F7F2F7;
+    border-radius: 10px;   
+}
+.star{
+    padding: 17px 0px 0px 40px;
+    width:120px
+}
+.star-ratings-1 p{
+    float:right;
+    font-family: 'League Spartan', sans-serif;
+    color:#502050;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    right:100px;
+    bottom: 17px;
+}
+.star-ratings-2{
+    height:50px;
+    width:450px;
+    float: right;
+    position: relative;
+    left:390px;
+    bottom:140px;
+    background-color: #F7F2F7;
+    border-radius: 10px;
+}
+.star-ratings-2 p{
+    float:right;
+    font-family: 'League Spartan', sans-serif;
+    color:#502050;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    right:80px;
+    bottom: 17px;
+}
+.star-ratings-3{
+    height:50px;
+    width:450px;
+    float: right;
+    position: relative;
+    bottom:120px;
+    background-color:#F7F2F7;
+    border-radius: 10px;  
+}
+.star-ratings-3 p{
+    float:right;
+    font-family: 'League Spartan', sans-serif;
+    color:#502050;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    right:120px;
+    bottom: 17px;
+}
+.box-2{
+    height:380px;
+    width:1100px;
+    margin-top: 10px;
+    position: relative;
+    bottom:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 img{
+    width:40px;
+    border-radius: 20px;
+    position: relative;
+    top:30px;
+    left:30px;
+
+}
+.reviews-of-title{
+    position: relative;
+    bottom: 5px;
+    left:90px;
+    padding: 0px;
+}
+.reviews-of-title h4{
+    color:white;
+}
+.reviews-of-title p{
+    color: #F7B6D3;
+}
+.reviews-of-guests-1{
+    height:230px;
+    width:350px;
+    background-color: #502050;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    margin-right: 25px;
+    position: relative;
+    bottom:60px;
+}
+.guests-reviews{
+    padding: 30px;
+    line-height: 20px;
+    color: white;
+}
+.reviews-of-guests-2{
+    height:230px;
+    width:350px;
+    background-color: #502050;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    margin-right: 25px;
+    position: relative;
+    bottom:25px;
+}
+.reviews-of-guests-3{
+    height:230px;
+    width:350px;
+    background-color: #502050;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    position: relative;
+    top:15px;
+}

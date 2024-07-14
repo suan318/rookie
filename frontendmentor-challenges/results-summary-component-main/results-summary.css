@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+}
+.background{
+    width:1440px;
+    height:920px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width:700px;
+    height:550px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(230, 230, 255);
+}
+.box-1{
+    width:350px;
+    height: 550px;
+    background-color: rgb(89, 0, 255);
+    border-radius: 10px;
+    
+    
+}
+.your-result{
+    color: white;
+    width:100px;
+    padding: 30px 125px 30px 125px;
+    font-family: 'Hanken Grotesk', sans-serif;
+  
+    
+}
+.score{
+    color: white;
+    background-color:rgb(86, 50, 247) ;
+    height: 180px;
+    width: 180px;
+    border: 1px solid  rgb(86, 50, 247);
+    margin: 20px 85px 55px 85px;
+    border-radius: 90px;
+    font-family: 'Hanken Grotesk', sans-serif;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score span{
+    font-size: 40px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+span p{
+    position: relative;
+    left:20px;
+}
+.great h1{
+    color: white;
+    padding:0px 125px 30px 125px;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+.great p{
+    color: white;
+    padding:10px 50px 0px 50px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.box-2{
+    width:350px;
+    height: 550px;
+    float:right;
+    position: relative;
+    bottom:550px;
+    right:0px;
+}
+.box-2 h3{
+    padding: 30px 125px 30px 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.box-2-content{
+    height:300px;
+    width:290px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.div-1{
+    width:290px;
+    height:30px;
+    margin-bottom:20px ;
+    background-color:rgb(255, 230, 243);
+    border-radius: 10px;
+    flex:1
+}
+.div-1 svg{
+    float: left;
+    position: relative;
+    left: 15px;
+    top:20px;
+
+}
+.div-1 h3{
+    padding: 17px 0px 25px 50px;
+   color: rgb(255, 128, 193);
+    
+}
+.div-1 div{
+    position: relative;
+    bottom:45px;
+    left:230px;
+}
+.div-1 div span{
+    color: gray;
+}
+.div-2{
+    width:290px;
+    height:30px;
+    margin-bottom:20px ;  
+    background-color:rgb(255, 255, 230);
+    border-radius: 10px;
+    flex:1
+}
+.div-2 svg{
+    float: left;
+    position: relative;
+    left: 15px;
+    top:20px;
+}
+.div-2 h3{
+    padding: 17px 0px 25px 50px;
+    color:rgb(153, 153, 0);
+}
+.div-2 div{
+    position: relative;
+    bottom:45px;
+    left:230px;
+}
+.div-2 div span{
+    color: gray;
+}
+.div-3{
+    width:290px;
+    height:30px;
+    margin-bottom:20px ;
+    background-color: rgb(211, 248, 211);
+    border-radius: 10px;
+    flex:1
+}
+.div-3 svg{
+    float: left;
+    position: relative;
+    left: 15px;
+    top:20px;
+}
+.div-3 h3{
+    padding: 17px 0px 25px 50px;
+    color:rgb(21, 132, 21);
+}
+.div-3 div{
+    position: relative;
+    bottom:45px;
+    left:230px;
+}
+.div-3 div span{
+    color: gray;
+}
+.div-4{
+    width:290px;
+    height:30px;
+    background-color:rgb(224, 214, 245);
+    border-radius: 10px;
+    flex:1
+}
+.div-4 svg{
+    float: left;
+    position: relative;
+    left: 15px;
+    top:20px;
+}
+.div-4 h3{
+    padding: 17px 0px 25px 50px;
+    color:rgb(99, 50, 205);
+}
+.div-4 div{
+    position: relative;
+    bottom:45px;
+    left:230px;
+}
+.div-4 div span{
+    color: gray;
+}
+.foot{
+    width:270px;
+    height:50px;
+    background-color:rgb(86, 50, 247);
+    position: relative;
+    left:40px;
+    top:40px;
+    border-radius: 30px;
+}
+.foot h3{
+    padding: 13px 0px 15px 95px;
+    color: white;
+}
